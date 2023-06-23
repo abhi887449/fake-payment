@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navbar/>
         <Routes>
-                  {["/", "/upi","/debitcard"].map(path => (
+                  {["/fake-payment", "/upi","/debitcard"].map(path => (
                     <Route
                       path={path}
                       element={<ItemPurchase />}
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/upi" element={<Upi/>}></Route>
         <Route exact path="/debitcard" element={<DebitCard/>}></Route>
         <Route exact path="/paymentsuccess" element={<PaymentSuccess/>}></Route>
-        <Route exact path="/" element={<PaymentOptions />}></Route>
+        <Route exact path="/fake-payment" element={<PaymentOptions />}></Route>
       </Routes>
     </Router>
     <div>

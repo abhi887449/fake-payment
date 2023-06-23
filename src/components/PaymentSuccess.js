@@ -13,7 +13,7 @@ const PaymentSuccess = () => {
       dispatch(UpdateUpiId(null))
       dispatch(UpdateCardDetails(null))
       localStorage.clear();
-        navigate("/")
+        navigate("/fake-payment")
     }
     return (
         <div className="">
