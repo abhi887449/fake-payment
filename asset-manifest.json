@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fake-payment/static/css/main.e0dc3403.css",
+    "main.js": "/fake-payment/static/js/main.d6b5e771.js",
+    "static/js/787.69eba4b8.chunk.js": "/fake-payment/static/js/787.69eba4b8.chunk.js",
+    "index.html": "/fake-payment/index.html",
+    "static/media/rupee-icon.svg": "/fake-payment/static/media/rupee-icon.607389fc95ca5d477602b6279cca4e8a.svg",
+    "main.e0dc3403.css.map": "/fake-payment/static/css/main.e0dc3403.css.map",
+    "main.d6b5e771.js.map": "/fake-payment/static/js/main.d6b5e771.js.map",
+    "787.69eba4b8.chunk.js.map": "/fake-payment/static/js/787.69eba4b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0dc3403.css",
+    "static/js/main.d6b5e771.js"
+  ]
+}
